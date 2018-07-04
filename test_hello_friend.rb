@@ -16,11 +16,5 @@ class TestFriend < MiniTest::Test
 
   def test_greets_no_one
     assert_equal "Hello !", @friend.greet
-
-    # Hint: remember default argument values?
-    #
-    # def greet(name = ?)
-    #   # your code here
-    # end
   end
 end
